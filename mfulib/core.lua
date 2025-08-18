@@ -1,3 +1,7 @@
-mfu = {}
+if not mfu then
+    mfu = {}
+end
 
-require('__mfulib__/scripts/write')
+require('scripts.write')
+
+return mfu
